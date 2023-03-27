@@ -1,0 +1,25 @@
+git log => la liste de tous les commit
+
+commit d4efcc288ff6e301f5dee54a9f36a7d9b2712f3c (HEAD -> master)
+Author: Lakssami L <boumalaka@hotmail.com>
+Date:   Mon Mar 27 14:30:02 2023 +0200
+
+    fin exo
+
+commit 612258a33487e5b8591652ae74e9f287ce7ee6b5
+Author: Lakssami L <boumalaka@hotmail.com>
+Date:   Mon Mar 27 14:16:35 2023 +0200
+
+q => libérer le terminal
+
+git log --oneline (dans le terminal)=> version plus compact de git log
+id version courte
+
+revenir dans le passé
+
+
+------------------
+
+git diff (modififcations en attente avant même le staged) connaître les différences entre repository et le projet
+pour tous les fichiers qui ne sont pas add
+
