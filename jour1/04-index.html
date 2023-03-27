@@ -1,18 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <p>Bonjour tout le monde</p>
     <!--
         je veux garder l'évolution de ma page 04-index.html
         je veux stocker les différentes phases de l'évolution de ce fichier
         => git !!!
-        deux commandes à connaître : git add --all
+        deux commandes à connaître : 
+        git add --all
+        git commit -m "création page d'accueil"
+
+        [main dcd1e34378] création page d'accueil
+        6 files changed, 165 insertions(+)
+
+        git add --all
+        git add => action sélectionner tous les fichiers pour les visionner dans repo
+            --all => tous les fichiers
+
+        git commit -m "message" => l'action d'enregistrement des fichiers DANS
+            le repo
+          git commit => enregistre dans le dossier .git
+
+          -m "création page d'accueil" => associer à l'enregistrement un message
+          expliquer pourquoi on réalise l'enregistrement
+
+          2 étapes => selectionne git add --all
+                   => enregistrer avec un message git commit -m "modifier ..."
+
+          dès que tu fais évoluer n'importe quel fichier
+          ajouter de nouveau fichier
+          supprimer des fichiers
+
+
     -->
-</body>
+    <article>
+      <h2>je suis un article</h2>
+      <img src="https://via.placeholder.com/400x200" alt="" />
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, eum
+        voluptas esse nihil mollitia eveniet labore quod, dolor voluptates
+        consequuntur quaerat harum, cum porro? Nobis, suscipit recusandae. Amet,
+        repellat nulla.
+      </p>
+    </article>
+  </body>
 </html>
+<!--
+    Enregistrer le fichier Ctrl S
+    git add --all
+-->
