@@ -115,7 +115,83 @@
         add et commit
         gitk pour confirmer que vous avez bien enregistré votre version dans le repositoty
     -->
-    <!-- pour afficher les caractères :
-    git config --global gui.encoding utf-8-->
+    <!-- pour afficher les caractères avec accents:
+    git config --global gui.encoding utf-8
+
+    présenté git => outil de versioning
+    moyen de garder une trace de l'évolution des projets
+    noter pour vous 4 informations : qui / quand / quoi / pourquoi??
+
+    4 commandes :
+    git init => exécuté 1 seule fois lors du lancement du projet => crée repository (dépôt)
+    
+        travailler => écrire dans un ou plusieurs fichiers (ajouter une fonction)
+        Enregistrer
+
+    git add --all => plusieurs fois sélectionner quel fichier on veut versionner
+    git commit -m "...." => plusieurs fois l'action d'ajouter dans le repository
+    // 2 commandes l'une après l'autre
+    // créer COMMIT sauvegarde de version // sauvegarde INCREMENTALE
+
+         travailler => écrire dans un ou plusieurs fichiers (ajouter une fonction)
+        Enregistrer
+
+    git add --all =>
+    git commit -m "...."
+
+    gitk => outil tableau de bord => réponse qui / quand / quoi / pourquoi??
+
+    Quand vous travaillez avec git ET Visual Studio Code reconnaît git, avec des petites lettres qui apparaissent
+
+    Dans Visual Studio Code => annotation dans l'explorer (les lettres)
+
+    modifié le fichier 04-index.html => M
+    créer un nouveau fichier 05-presentation.html U
+
+    état des documents par rapport au repository
+
+    git status
+
+    Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        jour1/05-presentation.html U
+
+    no changes added to commit (use "git add" and/or "git commit -a")
+
+    git status connaître l'écart entre repository et le projet
+
+    => fichier 04-index.html => Changes not staged
+        expliquer quelles commandes saisir pour chnager leur etat
+    => jour1/05-presentation.html => Untracked files :
+    => le transformer ou changer son état de Untracked => Unstaged(le status)
+        git add jour1/05-presentation.html
+        git status
+
+        le fichier 05-presentation.html est passé à UnstAged(il est sélectionné et prêt pour être commité dans repository)
+        maintenant on a 
+        Changes to be committed:
+        (use "git restore --staged <file>..." to unstage)
+        new file:   jour1/05-presentation.html
+
+        Etape suivante : git commit -m "ajout du fichier presentation"
+
+        A => rien (copié de votre fichier === copie incrémentale dans le repository)
+
+        Nouveau fichier
+        U --> A --> rien
+        M : en attente
+        Untracked 
+            git add
+        unstAged
+            git commit 
+        staged => rien
+
+        dans le cas du fichier 04-index.html (déjà été enregistré dans le repository)
+
+        Par défaut, il aura le status modified
+            git add jour1/04-index.html
+
+
+    -->
   </body>
 </html>
