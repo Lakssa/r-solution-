@@ -1,0 +1,22 @@
+aller sur le lien suivant :
+https://git-scm.com/downloads
+télécharger le fichier .exe (windows) => double cliquer
+next next ...Fin
+laissé toutes les options conseillées (sans aucune)
+installation
+Finish => page web (Release) => Dernière Publication / sortie d'un projet
+
+v2.40.0
+
+=> linux /MacOS => ligne de commande
+
+windows / mac OS => DANS Visual Studio code
+=> il y a un terminal disponible
+
+saisir la commande suivante Terminal > New terminal (zone bas de l'écran)
+
+git --version
+git version 2.40.0
+
+windows => choisir "Command Prompt"
+

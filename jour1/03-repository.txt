@@ -1,0 +1,28 @@
+commencer à utiliser git
+
+pour utiliser git sur un projet existant, il faut saisir la commande : un terminal (cmd) ouvert
+
+
+git init
+
+Initialized empty Git repository in C:/Users/lakss/OneDrive/Bureau/git Lakssami/.git/
+=> crée un dossier caché => qui s'appelle .git dans le projet en cours
+=> ce dossier caché => nom spécial => repository (dépôt)
+=> ce dossier caché stockée les 4 questions suivies par git
+
+=> version / qui/ quel fichier / pourquoi / quand
+
+=> fichier interne de git qui lui permettent de fonction
+
+configurer le profil utilisateur
+=> outil de versionning qui a réalisé la modification => qui a configuré dans notre ordinateur
+
+git config --global user.name "Prénom Nom"
+git config --global user.email "votre@email.fr" 
+
+2 commandes enregistrées
+
+attention la souris ne permet pas de sélectionne plusieurs caractères
+ou de revenir dans une commande
+suppr ou fleche directonnelle du clavier
+fin Enter pour valider
