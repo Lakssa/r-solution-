@@ -20,6 +20,74 @@ revenir dans le passé
 
 ------------------
 
-git diff (modififcations en attente avant même le staged) connaître les différences entre repository et le projet
+git diff jour1/07-commande.txt (modififcations en attente avant même le staged) connaître les différences entre repository et le projet
 pour tous les fichiers qui ne sont pas add
+
+-------------------
+
+git checkout : cette commande permet de naviguer entre les commits
+revenir dans le passé (reve,ir dans les précédents commit)
+
+Ctrl S et 
+git log --oneline
+
+git checkout a0dc31f (venir dans le passé) : permet de supprimer le fichier jour1/07-commande.txt
+permet de regarder
+Mais vous ne pouvez pas modifier / add / commit
+
+si on veut revenir dans le présent dans la situation actuelle,
+il faut faire :
+get checkout master 
+(si get checkout main ne fonctionne pas)
+
+-------------------
+
+git revert copier un ancien commit pour le mettre come commit actuel
+git reset supprimer des commits entre maintenant et l'id du commit
+
+git log --oneline
+
+ATTENTION ATTENTION {git reset 89d6853 --hard : ecriture git reset <id> --hard
+permet de supprimer à partir ddu méméro de l'étape indiquée
+git reset est détruit càd supprimer les commits (impossible de les récupérer)
+
+pas possible de revenir en arrière sur un reset} => commande à utiliser si on ne peut pas faire autrement
+
+=> pour revenir en arrière sans tout supprimer :
+git branch
+
+git reflog : l'historique des commandes 
+
+si git reset 89d6853
+pour récupérer il faut faire : 
+git add --all
+git commit -m "sauvegarde"
+git reflog
+git branch recuperation <id reflog avant le reset>
+git merge
+
+---------------------------------------
+git checkout recuperation
+git checkout main
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
