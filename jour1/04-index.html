@@ -5,6 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <style>
+      td,
+      th {
+        border: 1px solid black;
+        padding: 10px 30px;
+      }
+    </style>
   </head>
   <body>
     <p>Bonjour tout le monde</p>
@@ -56,6 +63,20 @@
 
     git => ne corrige pas les buggs mais garde tout l'historique
     -->
+    <table>
+      <tr>
+        <td>lundi matin</td>
+        <td>mardi matin</td>
+        <td>mercredi matin</td>
+        <td>jeudi matin</td>
+        <td>vendredi matin</td>
+      </tr>
+      <tr>
+        <td>samedi matin</td>
+        <td>samedi midi</td>
+        <td>samedi soir</td>
+      </tr>
+    </table>
     <form action="">
       <input type="text" placeholder="boumalaka@hotmail.com" />
       <input type="submit" value="s'inscrire à la newsletter" />
@@ -64,6 +85,22 @@
     Enregistrer le fichier Ctrl S
     git add --all
     git commit -m "ajout d'un formulaire de newsletter"
+    -->
+    <!-- au minimum 3 commit
+    outil :
+    gitk
+    attention git est un outil de VERSIONNING incrémental (stocker QUE les modifications)
+    et non tout le fichier à chaque fois (gagner de la place)
+    seul lors de la création du fichier stocke le fichier à 100%
+    pour les suivants => INCREMENT
+    -->
+    <!--
+        dans le fichier 04-index.html
+        ajouter un tableau <table> entre le formulaire de newsletter et l'article
+            ce tableau contient 5 lignes et 3 colonnes avec 2 mots par cellule
+
+        add et commit
+        gitk pour confirmer que vous avez bien enregistré votre version dans le repositoty
     -->
   </body>
 </html>
