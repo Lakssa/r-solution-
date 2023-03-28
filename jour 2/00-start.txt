@@ -1,0 +1,26 @@
+https://formation.webdevpro.net/git (saisir directement dans la barre d'adresse pas dans Google)
+login : git
+password : git
+(mettre les login et password en minuscule)
+
+notes de cours :
+https://github.com/webdevproformation/git-d-mars-2023
+
+dessiner des schémas directement dans VSC => 
+1 dessiner l'extension draw.io Integration
+2 créer un fichier ....drawio
+branch =>
+
+https://onlywei.github.io/explain-git-with-d3/
+
+cas pratique :
+
+dans le dossier jour2 => créer un fichier 01-exo.html mettre une barre de menu add + commit
+créer un fichier 01-exo.html mettre un article et un formulaire add + commit
+
+créer une branch css et se positionner dessus
+
+ajouter un fichier style.css qui va styliser la barre de menu add et commit
+ajouter dans le fichier style.css qui va styliser le formulaire add et commit 
+
+positionner sur la branch principale fusionner la branch principale avec la branch css
