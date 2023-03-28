@@ -45,6 +45,7 @@ git branch // pour savoir sur quelle branch je travaille
 travailler sur la branch
 git add --all
 git commit -m"....." sur cette branch
+à 100% 
 
 3a---------
 si on est content

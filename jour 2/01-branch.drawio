@@ -1,0 +1,97 @@
+<mxfile host="65bd71144e">
+    <diagram id="lZu2pCSuVcVC_NmNf5Wk" name="Page-1">
+        <mxGraphModel dx="1216" dy="784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;flipV=1;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="350" width="40" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="création&lt;br&gt;git add&lt;br&gt;git commit" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="60" y="390" width="80" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="" style="endArrow=none;html=1;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="30" y="369.5" as="sourcePoint"/>
+                        <mxPoint x="80" y="369.5" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="5" value="" style="endArrow=none;html=1;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="120" y="369.5" as="sourcePoint"/>
+                        <mxPoint x="170" y="369.5" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="6" value="2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;flipV=1;" vertex="1" parent="1">
+                    <mxGeometry x="170" y="350" width="40" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="" style="endArrow=none;html=1;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="210" y="370" as="sourcePoint"/>
+                        <mxPoint x="260" y="370" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="8" value="3" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;flipV=1;" vertex="1" parent="1">
+                    <mxGeometry x="260" y="350" width="40" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="création article&lt;br&gt;&amp;nbsp;et formulaire&lt;br&gt;git add&lt;br&gt;git commit" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="143" y="398" width="100" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="création d'une branch&lt;br&gt;git add&lt;br&gt;git commit" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="240" y="403" width="140" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="296" y="356" as="sourcePoint"/>
+                        <mxPoint x="346" y="306" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="14" value="4" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;flipV=1;" vertex="1" parent="1">
+                    <mxGeometry x="340" y="270" width="40" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="git branch style&lt;br&gt;git checkout style" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="200" y="290" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="5" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;flipV=1;" vertex="1" parent="1">
+                    <mxGeometry x="445" y="270" width="40" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="" style="endArrow=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="17">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="380" y="289" as="sourcePoint"/>
+                        <mxPoint x="430" y="289" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="19" value="travaille&lt;br&gt;git add&lt;br&gt;git commit" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="308" y="185" width="80" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="travaille&lt;br&gt;git add&lt;br&gt;git commit" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="448" y="185" width="80" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="6" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;flipV=1;" vertex="1" parent="1">
+                    <mxGeometry x="500" y="348" width="40" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="" style="endArrow=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="8">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="440" y="400" as="sourcePoint"/>
+                        <mxPoint x="500" y="370" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="25" value="" style="endArrow=classic;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="23">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="470" y="310" as="sourcePoint"/>
+                        <mxPoint x="520" y="370" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="26" value="" style="endArrow=none;html=1;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="660" y="370" as="sourcePoint"/>
+                        <mxPoint x="540" y="370" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="27" value="&lt;br&gt;git checkout master&lt;br&gt;git merge css" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="485" y="280" width="130" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
