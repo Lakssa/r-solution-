@@ -1,0 +1,40 @@
+git stash => (va fermer tous les fichiers, ils vont disparaître)
+
+a stash => planque (cachette)
+
+git stash permet de cacher tout le code que vous avez écrit pour le stock mémoire hors de
+hors des commits / hors des branch 
+
+je n'ai pas fait de add / pas de commit
+
+function (){}
+
+git stash save "nom" => sauvegarder le code non commit dans une stash
+git stash list => liste de toutes stash
+git stash apply stsh{0} => prendre le contenu de la stash et copier dans la branch en cours (sans supprimer la
+stash)
+git stash pop => prendre le contenu du dernier stash et le supprimer
+git stash drop stash{0} => supprimer la stash numéro 1
+git stash clear (supprime tous les stash)
+
+lorsque l'on travaille et que l'on se trompe de branch
+git branch <nom>
+git checkout <nom>
+
+git checkout -b <nom>
+
+cas pratique :
+dans la branch main => modifier 3 fichiers ajoutant du code / supprimant du code
+stasher ces modifications
+créer une branch exo4 et se potionner dessus
+récupérer les informations dans le stash cette branch
+add et commit
+vider le stash
+retour sur la branch principale
+merge et supprimer la branch exo4
+
+
+
+
+
+
