@@ -1,0 +1,59 @@
+git remote => rétablir un lien avec un dépôt distant
+
+il est possible d'avoir PLUSIEURS remote
+git remote add origin <url> Bitbucket
+git remote add gitlab <url> GitLab
+git remote add github <url> Github
+
+il est possible de les supprimer
+
+git remote remove origin
+git remote remove github
+
+je veux connaître la liste des remote à disposition
+
+git remote
+git remote -v 
+git remote --verbose 
+
+
+
+créer un lien factice
+
+git remote add toto  http://exemple.com
+
+git remote -v 
+
+git remote remove toto # suppression
+
+------------
+
+git log => journal historique de tous les commits réalisés
+
+=> cas pratique 
+=> ajouter un nouveau remote dans votre projet (de votre choix)
+=> lister et le supprimer
+-----------
+correction de l'exo :
+git remote add exemple https://bitbucket.origin
+git remote --verbose
+git remote remove exemple
+git remote --verbose
+
+-----------
+
+si vous avez un seul remote =>
+
+git push (il va rajouter automatiquement) origin main 
+
+------------
+
+si vous avez PLUSIEURS remote
+
+git push github main
+
+-------------
+
+cas pratique => 
+1. créer un compte utilisateur sur github.com
+2. 
