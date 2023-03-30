@@ -11,7 +11,7 @@ function (){}
 
 git stash save "nom" => sauvegarder le code non commit dans une stash
 git stash list => liste de toutes stash
-git stash apply stsh{0} => prendre le contenu de la stash et copier dans la branch en cours (sans supprimer la
+git stash apply stash{0} => prendre le contenu de la stash et copier dans la branch en cours (sans supprimer la
 stash)
 git stash pop => prendre le contenu du dernier stash et le supprimer
 git stash drop stash{0} => supprimer la stash numéro 1
@@ -32,8 +32,46 @@ add et commit
 vider le stash
 retour sur la branch principale
 merge et supprimer la branch exo4
+-------------
+correction :
+
+modifications des 3 fichiers
+. git stash save "sauvegarde"
+disparition des 3 fichiers
+. git checkout -b exo4
+création branch exo4
+. git stash list
+. git stash pop
+tout est revenu
+. git commit -a -m "message " (la fusion de la commande git add --all et git commit -m "message")
+pour tous les fichiers et non tracked
+. git merge exo4
+avec la branch exo4
+. git branch -d exo4
+. git checkout main
+. git push
+. git push github main
+
+vérification sur github :
+gitk
+ou bien on peut regarder dans le github
+commits : nbre de commits/jour 
+
+------------------
+
+POUR TOUTE VERIFICATION :
+gitk all
+ou  git -search
+ou bien git log --grep="récupération"
+ou bien git log --grep="cup" oneline
+ou bien git log --author="sabrina" --oneline
 
 
+
+
+
+
+https://antonydruon.github.io/Calculatrice.JS/
 
 
 

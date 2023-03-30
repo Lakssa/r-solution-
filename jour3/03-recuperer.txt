@@ -6,3 +6,5 @@ récupérer des informations qui sont sur le remote => local
 git pull => récupérer ET faire une commit
          = git fetch + git merge (créer un commit en local) 
 git fetch => récupérer les informations
+
+

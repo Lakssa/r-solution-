@@ -1,0 +1,12 @@
+créer un fichier index.html à la racine de votre projet 
+un peu de html et un peu de css / un peu de js 
+
+push sur la branch main de github 
+
+setting => page => publier => 
+
+https://nom-user.github.io/nom-repo
+
+https://<identifiant-git>.github.io/<nom-repo>/
+
+

@@ -1,0 +1,54 @@
+https://formation.webdevpro.net/git (saisir directement dans la barre d'adresse pas dans Google)
+login : git
+password : git
+(mettre les login et password en minuscule)
+
+notes de cours :
+
+https://bitbucket.org/formationwebdevpro/git-d-mars-2023/src/main/
+
+
+git add --all maintenant
+j'utilise plus git add . avant 
+
+git add --all maintenant
+git add -A 
+=> quelque soit le cas de figure => tout est sélectionné 
+
+git add * => * TOUT en SQL MAIS attention
+            en fonction du shell dans lequel on utilise cette commande * peut omettre
+            certains fichiers
+            si cmd est un fichier qui commence par .env et je fais git add * , le fichier .env est bien pris en compte 
+            si gitbash et que je fais git add *, n'a pas le même sens en fonction du terminal sur lequel tu vas le saisir
+
+git add .
+=> quelque soit le cas de figure => tout est sélectionné ! ca marche aussi
+
+----------------
+git add --all
+git commit -m "..." : commande usuellle
+
+git commit -a -m "..." : commande que pour les fichiers untracked. ok uniquement pour les fichiers M (modified = fichier Untracked càd add et commit précedemment)
+git commit --all - m "..." : à vérifier ?????
+git commit -am "..." : à vérifier  ?????
+
+git commit -A -m "..." => non
+git commit -m -a "..." => non
+
+une modification
+
+------------------
+
+github pages => permet de mettre en ligne des pages web statique (css / html et js )
+
+=> créer une branch spéciale => non n'importe quelle branch
+=> combien de temps ? => 2 min max sinon pb
+=> il faut un fichier index.html à la racine d'une branch
+
+1. créer un fichier index.html à la racine de mon projet sur la main
+2. push => vers dépôt distant
+git add --all
+git commit -"test"
+git push github main
+
+dans Action/pages build deployment/ build passe en vert si ça marche
